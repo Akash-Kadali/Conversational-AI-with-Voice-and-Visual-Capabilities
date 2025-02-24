@@ -19,7 +19,7 @@ The **AI-Powered Voice and Vision Chatbot** bridges communication gaps in **heal
 
 ## **Workflow Diagram**
 
-![Workflow Diagram]([(https://github.com/Akash-Kadali/Conversational-AI-with-Voice-and-Visual-Capabilities/blob/main/Process%20Flow.png)])
+![Workflow Diagram](https://github.com/Akash-Kadali/Conversational-AI-with-Voice-and-Visual-Capabilities/blob/main/Process%20Flow.png)
 
 ---
 
@@ -32,34 +32,38 @@ The **AI-Powered Voice and Vision Chatbot** bridges communication gaps in **heal
 
 ### **Installation**
 
-1️⃣ **Clone the Repository**:
+#### 1️⃣ Clone the Repository
 
 ```bash
-git clone [(https://github.com/Akash-Kadali/Conversational-AI-with-Voice-and-Visual-Capabilities.git)
-cd conversational_ai_with_voice_and_visual_capabilities
+git clone https://github.com/Akash-Kadali/Conversational-AI-with-Voice-and-Visual-Capabilities.git
+cd Conversational-AI-with-Voice-and-Visual-Capabilities
+```
 
-2️⃣ **Set Up Virtual Environment**:
+#### 2️⃣ Set Up Virtual Environment
 
 ```bash
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
 
-3️⃣ Install Dependencies
+#### 3️⃣ Install Dependencies
 
 Run the following command to install all required dependencies:
 
 ```bash
 pip install -r requirements.txt
+```
 
-### 4️⃣ Set Up Environment Variables
+#### 4️⃣ Set Up Environment Variables
 
 Create a `.env` file in the project root directory and add the following content:
 
 ```bash
 GROQ_API_KEY=your_groq_api_key
 ELEVENLABS_API_KEY=your_elevenlabs_api_key
+```
 
-### 5️⃣ Install FFmpeg (Required for Audio Processing)
+#### 5️⃣ Install FFmpeg (Required for Audio Processing)
 
 FFmpeg is required for handling audio processing tasks. Install it based on your operating system:
 
@@ -71,4 +75,6 @@ FFmpeg is required for handling audio processing tasks. Install it based on your
 
   ```bash
   brew install ffmpeg
+  ```
 
+---
